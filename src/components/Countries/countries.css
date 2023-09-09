@@ -1,0 +1,31 @@
+.cart-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+}
+
+.title{
+  text-align: center;
+  font-size: 40px;
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+.cart-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 30px;
+}
+
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+.cart-container{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 30px;
+}
+  
+
+}

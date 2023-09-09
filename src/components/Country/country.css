@@ -1,0 +1,27 @@
+.Country-container{
+background-color: lightblue;
+padding: 30px;
+border-radius: 15px;
+}
+.country-img{
+  width: 340px;
+  height: 200px;
+  
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+  .country-img{
+  width: 300px;
+  height: 200px;
+  
+}
+
+}
